@@ -1,0 +1,140 @@
+/* ======== ESTILOS GENERALES ======== */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #4CAF50 40%, #2F4F4F 100%);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ======== ENCABEZADO ======== */
+header {
+  background: #1b5e20;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+header nav a {
+  color: #a5d6a7;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* ======== MENÚ PRINCIPAL ======== */
+main.menu {
+  flex: 1;
+  text-align: center;
+  padding: 2rem;
+  color: white;
+}
+
+.menu h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.botones-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.btn {
+  background: #81c784;
+  color: #1b5e20;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+.btn:hover {
+  background: #66bb6a;
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* ======== SECCIÓN DE OPERACIONES ======== */
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.operacion {
+  background: #f0f4f3;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  min-width: 320px;
+}
+
+.operacion label {
+  display: block;
+  margin: 0.8rem 0 0.3rem;
+  font-weight: 600;
+  color: #2e7d32;
+}
+
+.operacion input {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  text-align: center;
+}
+
+button {
+  margin-top: 1rem;
+  background: #43a047;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #2e7d32;
+  transform: scale(1.05);
+}
+
+h2 {
+  margin-top: 1.5rem;
+  color: #1b5e20;
+}
+
+/* ======== PIE DE PÁGINA ======== */
+footer {
+  background: #263238;
+  color: #cfd8dc;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
